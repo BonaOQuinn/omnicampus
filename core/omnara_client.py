@@ -40,7 +40,8 @@ def send_status(
                 requires_user_input=requires_input,
             )
             if requires_input:
-                return result.get("user_response", "")
+                msgs = result.queued_user_messages
+                return msgs[0] if msgs else ""
             return None
         except Exception as exc:
             print(f"[Omnara] send_status failed: {exc}")

@@ -9,7 +9,7 @@ load_dotenv()
 
 MODEL_ARN = (
     "arn:aws:bedrock:us-east-1::foundation-model/"
-    "anthropic.claude-3-haiku-20240307-v1:0"
+    "anthropic.claude-haiku-4-5-20251001-v1:0"
 )
 
 
