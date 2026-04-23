@@ -45,7 +45,7 @@ OmniCampus Orchestrator  (Python ThreadPoolExecutor)
        ↓           ↓          ↓
   Bedrock KB   Bedrock KB  Bedrock KB
        ↓           ↓          ↓
-   Claude 3 Haiku (per agent)
+  Claude Haiku 4.5 (per agent)
         ↓
 ┌──────────────────────────────────────────┐
 │        Omnara Command Center             │
@@ -108,4 +108,4 @@ omnicampus/
 ---
 
 *Built for SDxUCSD Agent Hackathon · Track 2: Omnara · April 2026*  
-*Stack: AWS Bedrock · Claude 3 Haiku · Omnara · Streamlit · Python*
+*Stack: AWS Bedrock · Claude Haiku 4.5 · Omnara · Streamlit · Python*

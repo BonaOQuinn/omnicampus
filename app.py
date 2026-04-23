@@ -254,8 +254,7 @@ OmniCampus Orchestrator  (Python ThreadPoolExecutor)
   Bedrock KB   Bedrock KB  Bedrock KB
  (S3:Catalog)  (S3:Aid)   (S3:Wellness)
        ↓           ↓          ↓
-   Claude 3    Claude 3   Claude 3
-    Haiku       Haiku      Haiku
+  Haiku 4.5  Haiku 4.5  Haiku 4.5
         ↓           ↓          ↓
 ┌──────────────────────────────────────────┐
 │        Omnara Command Center             │
@@ -282,7 +281,7 @@ OmniCampus Orchestrator  (Python ThreadPoolExecutor)
         st.divider()
         st.markdown("##### Stack")
         st.markdown(
-            "- **LLM:** Claude 3 Haiku (Bedrock)\n"
+            "- **LLM:** Claude Haiku 4.5 (Bedrock)\n"
             "- **RAG:** Bedrock Knowledge Bases\n"
             "- **Vectors:** Amazon OpenSearch Serverless\n"
             "- **Embeddings:** Titan Embed Text v2\n"

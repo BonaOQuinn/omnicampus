@@ -17,6 +17,5 @@ class FinAidAgent(BaseAgent):
     )
     hitl_keywords = [
         "specific amount", "appeal", "eligibility",
-        "denied", "suspended", "mental health", "crisis",
-        "suicide", "self-harm", "emergency housing",
+        "denied", "suspended", "crisis", "emergency housing",
     ]
